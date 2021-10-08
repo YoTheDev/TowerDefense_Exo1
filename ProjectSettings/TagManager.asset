@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Kill_enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Kill_enemy
   - Water
   - UI
   - 
