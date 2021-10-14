@@ -9,7 +9,7 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Canspawn = false;
+        Canspawn = true;
     }
 
     // Update is called once per frame
@@ -17,8 +17,14 @@ public class Spawner : MonoBehaviour
     {
         if (Canspawn)
         {
-            Instantiate(enemyNormal, transform.position, transform.rotation);
+            InvokeRepeating("Spawn",1,0);
             Canspawn = false;
         }
+    }
+
+    void Spawn()
+    {
+        Instantiate(enemyNormal, transform.position, transform.rotation);
+        Canspawn = true;
     }
 }

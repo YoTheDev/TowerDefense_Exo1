@@ -13,13 +13,7 @@ public class Turret : MonoBehaviour
         Realoaded = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnCollisionStay(Collision other)
+    private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "enemy" && Realoaded == false)
         {

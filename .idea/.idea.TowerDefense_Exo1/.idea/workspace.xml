@@ -17,9 +17,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/scripts/enemy_gestion.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/AI_Navigation.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/Turret.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/Turret.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/Turret1.cs" />
       </list>
     </option>
   </component>
@@ -62,7 +64,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633684903364</updated>
-      <workItem from="1633684915809" duration="10816000" />
+      <workItem from="1633684915809" duration="10982000" />
+      <workItem from="1634201958512" duration="4923000" />
     </task>
     <servers />
   </component>

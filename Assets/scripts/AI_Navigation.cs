@@ -21,6 +21,7 @@ public class AI_Navigation : MonoBehaviour
         if (other.gameObject.tag == "Kill_enemy")
         {
             Destroy(this.gameObject);
+            enemy_gestion.LifeRemain--;
         }
     }
 }
