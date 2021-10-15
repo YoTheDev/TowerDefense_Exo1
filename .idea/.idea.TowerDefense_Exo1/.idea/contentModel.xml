@@ -11,7 +11,6 @@
           <e p="enemy_gestion.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="Turret.cs" t="Include" />
-          <e p="Turret1.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
